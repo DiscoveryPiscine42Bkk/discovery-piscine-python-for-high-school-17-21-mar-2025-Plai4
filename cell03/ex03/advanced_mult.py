@@ -1,11 +1,5 @@
-table = 0
-while table <= 10:
-    print(f"Table de {table}:", end="")
-
-    num = 0
-    while num <= 10:
-        print(table * num , end="")
-        num += 1
-
-    print()
-    table += 1
+for i in range (0,11):
+    print(f"Table de{i}: ", end="")
+    for j in range (0,11):
+        print(f"{i*j} ", end="")
+    print("")
